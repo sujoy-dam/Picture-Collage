@@ -21,3 +21,10 @@ img{
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
 }
+
+/* responsible design   */
+@media screen and (max-width:576px) {
+    .row{
+        flex-direction: column;
+    }   
+}
