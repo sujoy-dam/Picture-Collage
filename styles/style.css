@@ -11,7 +11,7 @@ img{
 }
 .vartical-collage{
     /* border: 2px solid black; */
-    height: 50%;
+    height: calc((100% - 10px)/2);
 }
 .row > div{
     flex: 1;
